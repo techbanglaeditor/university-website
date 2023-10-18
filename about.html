@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bareda Nizam Uddin Collage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="website logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!-- ---about us content--- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest collage</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quasi optio aut esse cum, quas beatae cumque laboriosam eligendi aspernatur eos at eum ex earum ipsam quisquam illum dolorem. Ad non expedita adipisci magni modi illo corrupti dolorem sunt, dolorum dicta sequi. Pariatur amet voluptates voluptate iusto laboriosam nam, est error corrupti nobis exercitationem accusamus totam perferendis adipisci alias placeat! Quod enim totam nesciunt cum similique quam nostrum tempora voluptatum.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="image/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- ---Footer--- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sequi deserunt incidunt? Adipisci doloribus facilis nesciunt totam ipsam iusto pariatur recusandae unde doloremque saepe, neque, ipsum facere, error eveniet accusantium!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Rifat Khan</p>
+</section>
+
+
+
+
+<!--------Javascript for Toggle Menu-------->
+<script>
+    var navLinks =document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
